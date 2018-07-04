@@ -1,0 +1,203 @@
+@font-face {
+    font-family: "Dusha";
+    src: url(Dusha_-_FIFA_World_Cup.ttf)
+}
+
+header,
+body,
+html {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: "Dusha";
+    background-color: black;
+}
+
+.parallax {
+    background-image: url("images/wp1.jpg");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("images/banner-web.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navBar {
+    position: fixed;
+    width: 100%;
+}
+
+.barItem {
+    float: left;
+    font-size: 20px;
+    color: #B40404;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.barItem:hover {
+    background-color: #B40404;
+}
+
+main {
+    font-family: "Dusha";
+    color: rgba(245, 245, 245, 0.863);
+    background-image: url(images/mundial.jpg)
+    
+}
+
+main>h1 {
+    padding: 45px;
+    margin: 0;
+    font-size: 45px;
+}
+
+.group-section {
+    display: inline-block;
+    width: 90%;
+}
+
+.group {
+    display: inline-block;
+    width: 20%;
+    margin: 15px;
+    background-color: rgb(161, 0, 0);
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.group:hover {
+    border: 3px solid rgba(245, 245, 245, 0.863);
+    border-radius: 15px;
+}
+
+.group-name {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.team {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.team img {
+    float: left;
+    margin-left: 10px;
+    width: 50px;
+}
+
+.team-name {
+    margin-left: 15px;
+    line-height: 0;
+}
+
+.team-point {
+    float: right;
+    margin-right: 15px;
+}
+
+.modal-title {
+    color: #B40404;
+}
+
+.modal-dialog {
+    position: relative;
+    display: table;
+    overflow-y: auto;
+    overflow-x: auto;
+    width: auto;
+}
+
+#thTeams {
+    text-align: center
+}
+
+td {
+    white-space: pre
+}
+
+.tables {
+    border-collapse: separate;
+    color: black;
+    border-spacing: 25px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+
+.finals {
+    width: 86%;
+    display: inline-block;
+}
+
+.finalRow {
+    width: 100%;
+}
+
+.final16Match {
+    
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    font-size: 20px;
+    line-height: 2;
+    margin: 25px;
+}
+.final4Match{
+    display: inline-block;
+    width: 20%;
+    font-size: 20px;
+    line-height: 1;
+   margin-left: 170px;
+   margin-right: 170px;
+}
+.final2Match{
+    display: inline-block;
+    width: 20%;
+    font-size: 20px;
+    line-height: 1;
+}
+.finalMatch{
+    display: inline-block;
+    width: 20%;
+    font-size: 20px;
+    line-height: 1;
+}
+.finals img{
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+#teamA{
+    text-align: center;
+    margin-right: 20px
+}
+#teamB{
+    text-align: center;
+    margin-left: 20px
+    
+}
+
+.logo{
+    float: left;
+    width: 50px;
+    margin: 5px;
+}
+#copyright{
+    color: rgba(245, 245, 245, 0.863);;
+    float: right;
+    margin: 20px;
+}
